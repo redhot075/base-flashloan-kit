@@ -1,24 +1,29 @@
-# Base Flashloan Starter Kit\n\nAave flashloan example for Base Sepolia/Mainnet. Borrow/repay in one tx.\n\n## Quick Start\n1. Install: `npm i hardhat @nomicfoundation/hardhat-toolbox @aave/core-v3`\n2. Config: Edit hardhat.config.js (private key)\n3. Deploy: `npx hardhat run scripts/deploy.js --network baseSepolia`\n4. Execute flashloan: Call executeFlashLoan(amount)\n\nSee full guide.
+# Base Flashloan Starter Kit
 
-## Verification & Usage
+Aave V3 flashloan example for Base Sepolia/Mainnet. Borrow/repay in one tx.
 
-1. Compile: `npx hardhat compile`
-2. Deploy: `npx hardhat run scripts/deploy.js --network baseSepolia`
-3. Flashloan: Call executeFlashLoan(USDC, amount)
+## Quick Start
 
-**Aave Pool Provider:** Base Sepolia: 0x... (docs.base.org)
+1. **Install:**
+   ```
+   npm init -y
+   npm i @aave/core-v3 @nomicfoundation/hardhat-toolbox
+   ```
 
-Deps: `npm i @aave/core-v3 @nomicfoundation/hardhat-toolbox`
+2. **Config:** Edit `hardhat-config/hardhat.config.js` (private key).
 
-## Verification & Usage
+3. **Deploy:**
+   ```
+   npx hardhat run scripts/deploy.js --network baseSepolia
+   ```
 
-1. Compile: `npx hardhat compile`
-2. Deploy: `npx hardhat run scripts/deploy.js --network baseSepolia`
-3. Flashloan: Call executeFlashLoan(asset, amount)
+4. **Execute flashloan:** Call `executeFlashLoan(asset, amount)`.
 
-**Aave Pool Provider Base Sepolia:** Check docs.base.org
+## Guide
 
-Deps: `npm i @aave/core-v3 @nomicfoundation/hardhat-toolbox`
-GPG verified test 🟢 Tue Feb 24 23:05:47 MSK 2026
-fix: GPG email match 🟢 Tue Feb 24 23:22:04 MSK 2026
-test: GPG key 819673F9 🟢 Tue Feb 24 23:43:33 MSK 2026
+### Contract
+- `BaseFlashLoan.sol`: FlashLoanSimpleReceiverBase, executeOperation repay.
+
+**Aave Pool Provider Base Sepolia:** Check docs.base.org.
+
+Base ready! 🚀
