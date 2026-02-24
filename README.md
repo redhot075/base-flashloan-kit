@@ -20,3 +20,5 @@ Deps: `npm i @aave/core-v3 @nomicfoundation/hardhat-toolbox`
 
 Deps: `npm i @aave/core-v3 @nomicfoundation/hardhat-toolbox`
 GPG verified test 🟢 Tue Feb 24 23:05:47 MSK 2026
+fix: GPG email match 🟢 Tue Feb 24 23:22:04 MSK 2026
+test: GPG key 819673F9 🟢 Tue Feb 24 23:43:33 MSK 2026
