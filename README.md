@@ -9,3 +9,13 @@
 **Aave Pool Provider:** Base Sepolia: 0x... (docs.base.org)
 
 Deps: `npm i @aave/core-v3 @nomicfoundation/hardhat-toolbox`
+
+## Verification & Usage
+
+1. Compile: `npx hardhat compile`
+2. Deploy: `npx hardhat run scripts/deploy.js --network baseSepolia`
+3. Flashloan: Call executeFlashLoan(asset, amount)
+
+**Aave Pool Provider Base Sepolia:** Check docs.base.org
+
+Deps: `npm i @aave/core-v3 @nomicfoundation/hardhat-toolbox`
