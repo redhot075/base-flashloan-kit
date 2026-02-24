@@ -19,3 +19,4 @@ Deps: `npm i @aave/core-v3 @nomicfoundation/hardhat-toolbox`
 **Aave Pool Provider Base Sepolia:** Check docs.base.org
 
 Deps: `npm i @aave/core-v3 @nomicfoundation/hardhat-toolbox`
+GPG verified test 🟢 Tue Feb 24 23:05:47 MSK 2026
